@@ -8,10 +8,10 @@
 }
 
 :root {
-	--mainColor: #29335c;
+	--mainColor: #eee; 
 	--mainColorLight: #5767aa;
 	--secondaryColor: #db2b39;
-	--textColor: #eee;
+	--textColor: #29335c;
 }
 
 header {
@@ -19,7 +19,7 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	height: 80px;
-	padding: 0 2rem;
+	padding: 0 2rem; 
 	background-color: var(--mainColor);
 	color: var(--textColor);
 }
@@ -59,6 +59,7 @@ nav {
 	}
 
 	header nav {
+        z-index: 999;
 		position: fixed;
 		top: 0;
 		left: 0;
