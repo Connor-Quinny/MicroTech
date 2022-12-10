@@ -10,7 +10,10 @@ function Hero() {
                 <source src={video} type="video/mp4"/>
             </video>
         </section>
+        <section className='HeroContent'>
         <h1 className='title'>Asbestos Testing and Analysis</h1>
+        <p>Microtech Sciences Ltd is an independent UKAS accredited asbestos testing laboratory providing a fast and cost effective asbestos analysis service</p>
+        </section>
     </section>
   )
 }
