@@ -12,7 +12,8 @@ function Hero() {
         </section>
         <section className='HeroContent'>
         <h1 className='title'>Asbestos Testing and Analysis</h1>
-        <p>Microtech Sciences Ltd is an independent UKAS accredited asbestos testing laboratory providing a fast and cost effective asbestos analysis service</p>
+        <p className='Paragraph'>Microtech Sciences Ltd is an independent UKAS accredited asbestos testing laboratory providing a fast and cost effective asbestos analysis service.</p>
+        <button className='Button'>Contact</button>
         </section>
     </section>
   )
