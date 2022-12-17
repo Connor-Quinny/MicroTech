@@ -1,6 +1,7 @@
 import React from 'react'
 import "../Styles/Hero.css"
 import video from "../Video/video.mp4"
+import {Button} from '../Components/ButtonElement'
 
 function Hero() {
   return (
@@ -13,7 +14,7 @@ function Hero() {
         <section className='HeroContent'>
         <h1 className='title'>Asbestos Testing and Analysis</h1>
         <p className='Paragraph'>Microtech Sciences Ltd is an independent UKAS accredited asbestos testing laboratory providing a fast and cost effective asbestos analysis service.</p>
-        <button className='Button'>Contact</button>
+        <Button></Button>
         </section>
     </section>
   )
