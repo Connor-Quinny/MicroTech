@@ -16,10 +16,6 @@ function App() {
   return (
     <Router>
       <Home />
-      <HeroSection />
-      <InfoSection {...homeObjOne}/>
-      <InfoSection {...homeObjTwo}/>
-      <Services />
     </Router>
   );
 }
