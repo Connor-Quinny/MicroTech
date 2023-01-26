@@ -5,27 +5,24 @@ import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesI
 function Services() {
   return (
     <ServicesContainer id='services'>
-        <ServicesH1>
+        <ServicesH1>Our Services</ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>
-                    <ServicesCard>
                         <ServicesIcon src={Icon1} />
                         <ServicesH2>Reduce expenses</ServicesH2>
                         <ServicesP>We help reduce expenses blah blah blah</ServicesP>
-                    </ServicesCard>
-                    <ServicesCard>
+                </ServicesCard>
+                <ServicesCard>
                         <ServicesIcon src={Icon1} />
                         <ServicesH2>Reduce expenses2</ServicesH2>
-                        <ServicesP>We help reduce expenses blah blah blah2</ServicesP>
-                    </ServicesCard>
-                    <ServicesCard>
+                        <ServicesP>We help reduce expenses blah blah blah2 bald fusn dsan sainsa </ServicesP>
+                </ServicesCard>
+                <ServicesCard>
                         <ServicesIcon src={Icon1} />
                         <ServicesH2>Reduce expenses3</ServicesH2>
-                        <ServicesP>We help reduce expenses blah blah blah3</ServicesP>
-                    </ServicesCard>
+                        <ServicesP>We help reduce expenses blah blah yo yo ehy hey hey blah3</ServicesP>
                 </ServicesCard>
             </ServicesWrapper>
-        </ServicesH1>
     </ServicesContainer>
   )
 }
