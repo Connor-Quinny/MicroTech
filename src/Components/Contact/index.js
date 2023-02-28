@@ -10,7 +10,7 @@ import {
   PhoneCallbackOutlined,
 } from "@material-ui/icons";
 import emailjs from '@emailjs/browser';
-const { PublicKey, ServiceKey, TemplateKey } = require('../../configg.json');
+const { PublicKey, ServiceKey, TemplateKey } = require('../../configs.json');
 
 const Contact = () => {
   const isDesktopOrLaptop = useMediaQuery({ minWidth: 1224 });
