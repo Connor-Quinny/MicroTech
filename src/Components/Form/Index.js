@@ -4,7 +4,7 @@ import {ContactForm, ImgWrap, Img, FormWrapper, ContactWrapper} from './FormElem
 import img from '../../Images/svgContact.svg'
 import { AiOutlineMail, AiOutlinePhone } from 'react-icons/ai'
 import { IoLocationOutline } from "react-icons/io5"
-import ContactUs from './New';
+import ContactUs from './Index2';
 
 function Form() {
 
