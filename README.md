@@ -1,6 +1,6 @@
 # MicroTech
 
-This project is a website I made for a local business called MicroTech.
+This project is a mobile responsive website I made for a local business called MicroTech.
 
 The site is not currently in use, but you can find a hosted version -> [here](https://microtechltd.netlify.app/)
 
