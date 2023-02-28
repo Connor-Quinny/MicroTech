@@ -1,5 +1,7 @@
 import React from 'react'
-import Icon1 from '../../Images/svg1.svg'
+import Icon1 from '../../Images/Img-3.svg'
+import Icon2 from '../../Images/svg-3.svg'
+import Icon3 from '../../Images/svg1.svg'
 import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP} from '../Services/ServiceElements'
 
 function Services() {
@@ -9,18 +11,18 @@ function Services() {
             <ServicesWrapper>
                 <ServicesCard>
                         <ServicesIcon src={Icon1} />
-                        <ServicesH2>Reduce expenses</ServicesH2>
-                        <ServicesP>We help reduce expenses blah blah blah</ServicesP>
+                        <ServicesH2>Asbestos testing and analysis</ServicesH2>
+                        <ServicesP>We offer reliable and accurate testing services to identify the presence of asbestos</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
-                        <ServicesIcon src={Icon1} />
-                        <ServicesH2>Reduce expenses2</ServicesH2>
-                        <ServicesP>We help reduce expenses blah blah blah2 bald fusn dsan sainsa </ServicesP>
+                        <ServicesIcon src={Icon2} />
+                        <ServicesH2>Bulk Sample Analysis</ServicesH2>
+                        <ServicesP>Our SEM has a higher magnification compared to the industry standard Polarised Light Microscope</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
-                        <ServicesIcon src={Icon1} />
-                        <ServicesH2>Reduce expenses3</ServicesH2>
-                        <ServicesP>We help reduce expenses blah blah yo yo ehy hey hey blah3</ServicesP>
+                        <ServicesIcon src={Icon3} />
+                        <ServicesH2>Asbestos Management</ServicesH2>
+                        <ServicesP>We provide advice on the next appropriate steps to be taken if asbestos is identified</ServicesP>
                 </ServicesCard>
             </ServicesWrapper>
     </ServicesContainer>

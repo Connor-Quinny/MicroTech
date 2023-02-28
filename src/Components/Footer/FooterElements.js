@@ -1,62 +1,63 @@
-import styled from "styled-components";
-import {Link} from 'react-router-dom';
+import styled from 'styled-components';
 
-export const FooterContainer = styled.footer`
-    background-color: #101522;
-`
-export const FooterWrap = styled.div`
-    padding: 48px 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1100px;
-    margin: 0 auto;
-`
-export const FooterLinksContainer = styled.div`
-    display: flex;
-    justify-content: center;
+export const FooterWrapper = styled.footer`
+  background-color: #030512;
+  padding: 40px 0;
+`;
 
-    @media screen and (max-width: 820px) {
-        padding-top: 32px;
-    }
-`
-export const FooterLinksWrapper = styled.div`
-    display: flex;
-    justify-content: center;
-    
-    @media screen and (max-width: 820px) {
-        flex-direction: column;
-    }
-`
-export const FooterLinkItems = styled.div`
-    display: flex;
+export const Container = styled.div`
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  @media (max-width: 768px) {
     flex-direction: column;
-    align-items: flex-start;
-    margin: 16px;
-    text-align: left;
-    width: 160px;
-    box-sizing: border-box;
-    color: #fff
-    
-    @media screen and (max-width: 420px) {
-        margin: 0;
-        padding: 10px;
-        width: 100%;
-    }
-`
-export const FooterLinkTitle = styled.h1`
-    font-size: 14px;
-    margin-bottom: 16px;
-`
-export const FooterLink = styled(Link)`
-    color: #fff;
-    text-decoration: none;
-    margin-bottom: 0.5rem;
-    font-size: 14px;
-    
-    &:hover {
-        color: #01bf71;
-        transition: 0.3s ease-out
-    }
-`
+  }
+`;
+
+export const Column = styled.div`
+  flex-basis: 33.33%;
+  margin-bottom: 40px;
+
+  @media (max-width: 1200px) {
+    flex-basis: auto;
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+
+    @media (max-width: 768px) {
+    flex-basis: auto;
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+`;
+
+export const Heading = styled.h3`
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+`;
+
+export const List = styled.ul`
+  list-style: none;
+  margin: 0;
+  padding: 0;
+`;
+
+export const ListItem = styled.li`
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  color: white;
+`;
+
+export const Paragraph = styled.p`
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  color: white;
+  margin-bottom: 5px;
+`;

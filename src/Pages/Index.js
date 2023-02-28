@@ -7,6 +7,8 @@ import Services from '../Components/Services/Index'
 import { homeObjOne, homeObjTwo } from '../Components/InfoSection/Data'
 import InfoSection from '../Components/InfoSection/Index'
 import Footer from '../Components/Footer/Index'
+import Form from '../Components/Form/Index'
+import Contact from '../Components/Contact/index'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -22,8 +24,9 @@ const Home = () => {
     <HeroSection />
     <InfoSection {...homeObjOne}/>
     <InfoSection {...homeObjTwo}/>
-    <InfoSection {...homeObjOne}/>
     <Services />
+    {/* <Form /> */}
+    <Contact />
     <Footer />
     </>
   )

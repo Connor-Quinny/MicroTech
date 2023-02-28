@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaBars } from 'react-icons/fa'
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavbarElement'
+import img from '../../Images/logo2.png'
 
 
 function Navbar2({toggle}) {
@@ -8,7 +9,7 @@ function Navbar2({toggle}) {
     <>
         <Nav>
             <NavbarContainer>
-                <NavLogo to='/'>Logo2</NavLogo>
+                <NavLogo to='/' src={img}></NavLogo>
                 <MobileIcon onClick={toggle}>
                     <FaBars />
                 </MobileIcon>
@@ -23,12 +24,12 @@ function Navbar2({toggle}) {
                         <NavLinks to="services">Services</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="signup">Sign Up</NavLinks>
+                        <NavLinks to="contact">Contact</NavLinks>
                     </NavItem>
                 </NavMenu>
-                <NavBtn>
-                    <NavBtnLink to="/signin">Sign In</NavBtnLink>
-                </NavBtn>
+                {/* <NavBtn to='contact'>
+                    <NavBtnLink to="contact">Contact</NavBtnLink>
+                </NavBtn> */}
             </NavbarContainer>
         </Nav>
     </>
