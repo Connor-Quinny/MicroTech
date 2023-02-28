@@ -21,7 +21,7 @@ const HeroSection = () => {
             <HeroH1>Asbestos Testing and Analysis</HeroH1>
             <HeroP>Microtech Sciences Ltd is an independent UKAS accredited asbestos testing laboratory providing a fast and cost effective asbestos analysis service.</HeroP>
             <HeroBtnWrapper>
-                <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">Contact {hover ? <ArrowForward /> : <ArrowRight />}</Button>
+                <Button to='about' onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">Get Started {hover ? <ArrowForward /> : <ArrowRight />}</Button>
             </HeroBtnWrapper>
         </HeroContent>
     </HeroContainer>

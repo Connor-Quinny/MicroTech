@@ -46,7 +46,7 @@ export const TextWrapper = styled.div`
     padding-bottom: 60px
 `
 export const TopLine = styled.p`
-    color: #01bf71;
+    color: #74baff;
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
@@ -59,8 +59,7 @@ export const Heading = styled.h1`
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
-    color: ${({ LightText }) => (LightText ? '#037ffc' : '#010606')};
-    // # missing
+    color: ${({lightText}) => (lightText ? '#010606' : '#fff')};
 
     @media screen and (max-width: 480px) {
         font-size: 32px;

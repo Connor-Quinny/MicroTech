@@ -29,16 +29,8 @@ export const Nav = styled.nav`
      max-width: 1100px;
 `
 
-export const NavLogo = styled(LinkR)`
-    color: #fff;
-    justify-self: flex-start;
-    cursor: pointer;
-    font-size: 1.5rem;
-    display: flex;
-    align-items: center;
-    margin-left: 24px;
-    font-weight: bold;
-    text-decoration: none;
+export const NavLogo = styled.img`
+    padding: 7px
 `
 export const MobileIcon = styled.div`
     display: none;
@@ -93,7 +85,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
     border-radius: 50px;
-    background: #01bf71;
+    background: #74baff;
     white-space: nowrap;
     padding: 10px 22px;
     color: #010606;
@@ -110,3 +102,5 @@ export const NavBtnLink = styled(LinkR)`
         color: #010606
      }
     `
+
+    
