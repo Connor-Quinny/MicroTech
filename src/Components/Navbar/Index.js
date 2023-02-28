@@ -1,15 +1,15 @@
 import React from 'react'
 import { FaBars } from 'react-icons/fa'
-import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavbarElement'
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink, ImgLink } from './NavbarElement'
 import img from '../../Images/logo2.png'
-
+import {Link} from 'react-router-dom'
 
 function Navbar2({toggle}) {
   return (
     <>
         <Nav>
             <NavbarContainer>
-                <NavLogo to='/' src={img}></NavLogo>
+                <NavLogo src={img} onClick={() => {window.scrollTo({top: 0, behavior: 'smooth'})}}></NavLogo>
                 <MobileIcon onClick={toggle}>
                     <FaBars />
                 </MobileIcon>

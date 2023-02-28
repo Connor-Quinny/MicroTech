@@ -30,7 +30,8 @@ export const Nav = styled.nav`
 `
 
 export const NavLogo = styled.img`
-    padding: 7px
+    padding: 7px;
+    cursor: pointer;
 `
 export const MobileIcon = styled.div`
     display: none;
@@ -102,5 +103,3 @@ export const NavBtnLink = styled(LinkR)`
         color: #010606
      }
     `
-
-    
