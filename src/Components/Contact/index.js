@@ -342,7 +342,7 @@ const Contact = () => {
                       }}
                     >
                       <MailOutline style={{ paddingRight: "10px" }} />
-                      info@microtechsciences.com
+                      info@microtech.com
                     </Typography>
                   </Grid>
                   <Grid xs={12} style={{ paddingTop: "10px" }}>
